@@ -22,7 +22,7 @@ npm install -D html-loader html-webpack-plugin
 npm install -D mini-css-extract-plugin css-loader style-loader sass sass-loader
 
 /*Instalamos las dependencias para poder limpiar y optimizar*/
-npm install -D css-minimizer-webpack-plugin terser-webpack-plugin clean-webpack-plugin
+npm install -D css-minimizer-webpack-plugin terser-webpack-plugin clean-webpack-plugin copy-webpack-plugin
 
 
 https://createapp.dev/
