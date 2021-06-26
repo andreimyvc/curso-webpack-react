@@ -1,0 +1,29 @@
+/*Instalamos react*/
+npm i react react-dom -S
+
+/*Instalamos babel*/
+npm install -D @babel/core @babel/preset-env @babel/preset-react babel-loader
+
+/*Configuramos babel en el archivo .babelrc*/
+
+/*Instalamos webpack*/
+npm install -D webpack webpack-cli webpack-dev-server
+
+/*Configuramos nuestro archivo de webpack.config.js*/
+
+/*Instalamos el html-loader y el plugin y los configuramos*/
+npm install -D html-loader html-webpack-plugin
+
+/*Configuramos los scripts*/
+    "start": "webpack server",
+    "build": "webpack --mode productio"
+
+/*Instalamos el css-plugin el css-loader, style-loader, sass, sass-loader y configuramos*/
+npm install -D mini-css-extract-plugin css-loader style-loader sass sass-loader
+
+/*Instalamos las dependencias para poder limpiar y optimizar*/
+npm install -D css-minimizer-webpack-plugin terser-webpack-plugin clean-webpack-plugin
+
+
+https://createapp.dev/
+
